@@ -1,64 +1,124 @@
 module.exports = {
-  title: 'John Smith',
-  header: "Hi, I'm John Smith",
-  description: "I'm a college junior currently taking up Computer Science in University X. I'm a freelance developer with 4 years of experience, having worked with clients such as X, Y, Z. I enjoy building everything from small business sites to rich interactive web apps.",
-  name: 'John Smith',
-  footerTitle: 'Software Engineer',
-  email: 'johnsmith@mail.com',
-  cta: {
-    label: 'Get my resume',
-    url: 'resume.pdf',
-  },
-  socials: [
-    { icon: 'twitter', url: '//' },
-    { icon: 'github-circled', url: '//' },
-    { icon: 'mail-alt' }, // mail alt automatically links to mailto:email
-    { icon: 'dribbble', url: '//' },
-    { icon: 'skype', url: '//' },
-    { icon: 'linkedin-squared', url: '//' },
-  ],
-  projects: [
-    {
-      name: 'Combustion',
-      description: 'Combustion is a sleek, modern web client for the transmission bittorrent client.',
-      tags: ['React', 'Javascript', 'Webpack', 'Mobx', 'CSSModules'],
-      alt: 'Combustion Screenshot', // alt description of image for accessibility. defaults to '{{name}} Screenshot'
-      img: 'combustion.png',
-      url: '//'
+    "socials": [
+        {
+            "icon": "twitter",
+            "url": "https://twitter.com/chronoblast"
+        },
+        {
+            "icon": "github-circled",
+            "url": "https://github.com/ChronoblastGames"
+        },
+        {
+            "icon": "dribbble",
+            "url": ""
+        },
+        {
+            "icon": "skype",
+            "url": ""
+        },
+        {
+            "icon": "mail-alt",
+            "url": "mailto: email"
+        },
+        {
+            "icon": "linkedin-squared",
+            "url": "https://www.linkedin.com/in/matthew-ferreira-398484b8/"
+        },
+        {
+            "icon": "icon-mail-alt",
+            "url": "https://github.com/ChronoblastGames"
+        }
+    ],
+    "experiences": [
+        {
+            "__key": "c80185e1-3e9f-4861-92e3-c16189d88347",
+            "title": "AEC - Dawson College - Independent Video Game Design",
+            "timeline": "Sept 2015 - May 2017",
+            "description": "Graduated from Dawson College's Independent Video Game Design Program"
+        },
+        {
+            "__key": "5616b856-ebfa-44f4-80b6-112ba2901844",
+            "title": "Unity Certified Developer [2017 - 2019]",
+            "timeline": "April 2017",
+            "description": "Completed Unity Developer Certification with a total score 94%.\n\nCertification ID: <PLACEHOLDER>"
+        }
+    ],
+    "name": "Matthew Ferreira",
+    "header": "Hello There! Welcome to My Portfolio.",
+    "cta": {
+        "label": "Grab my Resume!",
+        "url": "resume.pdf"
     },
-    {
-      name: 'Merc-01',
-      description: 'Merc-01 is a fast paced twin-stick shooter built on top of pyglet.',
-      tags: ['Python', 'WebGL', 'Pyglet'],
-      img: 'merc-01.png',
-      url: '//'
-    }
-  ],
-  experiences: [
-    {
-      title: 'Senior Software Engineer at Company A',
-      timeline: 'Jan 2016 - Present',
-      description: 'Implemented Gamification for system',
-    },
-    {
-      title: 'Fullstack Software Engineer at Company B',
-      timeline: 'Feb 2015 - Dec 2015',
-      responsibilities: [
-        'Worked with a global team of developers and artists for the implementation of new features in Existing Codebase of a Free-to-play MMO',
-        'Increased rate of tickets/tasks done by the team up to 300% within first few weeks!',
-        'Added Abstractions on Server API to Minimize Duplicate Code'
-      ]
-    }
-  ],
-  testimonials: [
-    {
-      quote: 'Incredibly talented and hardworking. A super friendly guy who is a frequent communicator',
-      name: 'Person Name',
-      title: 'CEO at Company'
-    },
-    {
-      quote: 'Wow, thank you for this, you probably have the most intuitive explanation for this problem!',
-      name: 'Person Name'
-    }
-  ]
+    "testimonials": [],
+    "title": "Game Designer and Programmer",
+    "projects": [
+        {
+            "__key": "e4011531-19da-48d8-8c84-31b174ac8063",
+            "name": "Guardian and Golems",
+            "description": "<PLACEHOLDER>",
+            "tags": [
+                "Programming",
+                "Game Design",
+                "Technical Artist"
+            ],
+            "alt": "Guardians and Golems Screenshot",
+            "img": "GG.png",
+            "url": "//"
+        },
+        {
+            "__key": "af4e3be5-ffb0-420a-b9a5-2c25584f55b7",
+            "name": "Cubic Conundrum",
+            "description": "<PLACEHOLDER>",
+            "tags": [
+                "Programming",
+                "Game Design",
+                "Art",
+                "Sound"
+            ],
+            "alt": "Cubic Conundrum Screenshot",
+            "img": "CC.png",
+            "url": "//"
+        },
+        {
+            "__key": "04412a24-a871-48c5-b57d-167395bb95d5",
+            "name": "WAVE POLO 3000",
+            "description": "<PLACEHOLDER>",
+            "tags": [
+                "Programming",
+                "Game Design"
+            ],
+            "alt": "WAVE POLO 3000 Screenshot",
+            "img": "WavePolo.png",
+            "url": "//"
+        },
+        {
+            "__key": "c06bd1d1-0d42-4759-b4db-5abac7664156",
+            "name": "Outermind",
+            "description": "<PLACEHOLDER>",
+            "tags": [
+                "Programming",
+                "Game Design",
+                "Art"
+            ],
+            "alt": "Innermind Screenshot",
+            "img": "Innermind.png",
+            "url": "//"
+        },
+        {
+            "__key": "3f81a1d8-8c39-4536-9b0c-2d482d387f79",
+            "name": "Cube Shuffle",
+            "description": "<PLACEHOLDER>",
+            "tags": [
+                "Programming",
+                "Game Design",
+                "Art"
+            ],
+            "alt": "Cube Shuffle Screenshot",
+            "img": "CubeShuffle.png",
+            "url": "//"
+        }
+    ],
+    "email": "chronoblastgamesofficial@gmail.com",
+    "description": "Hi there; my name's Matt and I am an Independent Game Developer.",
+    "footerTitle": "Game Designer and Programmer"
 }
