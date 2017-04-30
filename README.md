@@ -6,6 +6,10 @@ Whether you just want to add your information to create a page or edit styles an
 
 [Live Demo](https://secretmapper.github.io/Riyu/)
 
+Live Editor
+
+![riyu-editor](editor/screenshot.png)
+
 ## Features
 
 - Super lightweight and loads ridiculously fast (no external dependencies except a few font icons)
@@ -20,17 +24,7 @@ Whether you just want to add your information to create a page or edit styles an
 
 ## Usage
 
-You can use Riyu on two ways, by editing the raw html/css (use as is), or use data file/build system to customize Riyu more. It also features a Live Editor (beta) to more easily bootstrap your own page.
-
-### Live Editor
-
-![riyu-editor](editor/screenshot.png)
-
-Riyu Editor is a companion web app that allows you to easily add your own content for Riyu. The editor creates both a ready built html file you can drop on your server and a data.json file for use on Riyu's build system.
-
-_Fair warning: this was a bit of a weekend hack, and I have not covered all edge cases. Use with caution._
-
-[Try it now](http://secretmapper.github.io/Riyu/editor.html)
+You can use Riyu on two ways, by editing the raw html/css (use as is), or use data file/build system to customize Riyu more.
 
 ### Editing the raw html/css
 
